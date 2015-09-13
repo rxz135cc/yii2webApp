@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PDepend>
-  <Packages/>
+  <Packages>
+    <Package name="backend\controllers">
+      <Stats>
+        <TotalClasses>9</TotalClasses>
+        <ConcreteClasses>9</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>6</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/DepartmentController.php">DepartmentController</Class>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/FacultyController.php">FacultyController</Class>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/GroupController.php">GroupController</Class>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/MedicalCertificateController.php">MedicalCertificateController</Class>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/NotifyEmailController.php">NotifyEmailController</Class>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/ProgramController.php">ProgramController</Class>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/SiteController.php">SiteController</Class>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/StaffController.php">StaffController</Class>
+        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/StudentController.php">StudentController</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package></Package>
+        <Package>backend\models</Package>
+        <Package>common\models</Package>
+        <Package>yii\filters</Package>
+        <Package>yii\helpers</Package>
+        <Package>yii\web</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
   <Cycles/>
 </PDepend>

@@ -219,7 +219,7 @@
   <exec executable="${phpcpd}" taskname="phpcpd">
    <arg value="--log-pmd" />
    <arg path="${basedir}/build/logs/pmd-cpd.xml" />
-   <arg path="${basedir}/backend/controllers" />
+   <arg path="${basedir}/src" />
   </exec>
 
   <property name="phpcpd.done" value="true"/>
