@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="../backend/config/bootstrap.php"
+<phpunit bootstrap="../tests/codeception/bin/_bootstrap.php"
          backupGlobals="false"
          backupStaticAttributes="false"
          strict="true"
-         verbose="true">
+         verbose="true"
+	 cacheTokens="false"
+         colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         forceCoversAnnotation="false">
        
   <testsuites>
     <testsuite name="eSAS">
