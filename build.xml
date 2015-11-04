@@ -237,6 +237,7 @@
   <property name="phpunit.done" value="true"/>
  </target>
 
+
  <target name="phpunit-no-coverage"
          unless="phpunit.done"
          depends="prepare"
