@@ -53,8 +53,7 @@ AppAsset::register($this);
         <div class="container">
 
             <div class="jumbotron">
-                <h1>Student Attendance System</h1>      
-                <p>Managing Attendances becomes easy</p>      
+                <h1>Student Attendance System</h1>           
                 <a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-search"></span> Search</a>
             </div>
 
