@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--  This is a skeleton phpDox config file - Check http://phpDox.de for latest version and more info -->
 <phpdox xmlns="http://phpdox.net/config">
- <project name="eSAS" source="../src" workdir="phpdox">
+ <project name="eSAS" source="logs/" workdir="phpdox">
   <collector publiconly="false">
    <include mask="*.php" />
   </collector>

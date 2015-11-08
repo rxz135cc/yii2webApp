@@ -9,4 +9,5 @@ return array(
     $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
     $vendorDir . '/swiftmailer/swiftmailer/lib/swift_required.php',
     $vendorDir . '/nikic/php-parser/lib/bootstrap.php',
+    $vendorDir . '/codeception/verify/src/Codeception/function.php',
 );

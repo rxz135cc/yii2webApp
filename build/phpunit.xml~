@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="../tests/codeception/bin/_bootstrap.php"
+<phpunit bootstrap="../vendor/autoload.php"
          backupGlobals="false"
          backupStaticAttributes="false"
          strict="true"
-         verbose="true">
+         verbose="true"
+	       cacheTokens="false"
+         colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         forceCoversAnnotation="false">
        
   <testsuites>
     <testsuite name="eSAS">
-      <directory suffix="Test.php">tests/unit/</directory>
-      <directory suffix="Test.php">tests/integration/</directory>
+      <directory suffix="Test.php">../backend/tests/</directory>
     </testsuite>
   </testsuites>
 

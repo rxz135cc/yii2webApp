@@ -6,6 +6,9 @@
 <file name="/var/www/html/e-SAS/backend/controllers/StudentController.php">
  <error line="95" column="53" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
 </file>
+<file name="/var/www/html/e-SAS/backend/controllers/DepartmentController.php">
+ <error line="84" column="73" severity="error" message="Expected 1 newline after opening brace; 2 found" source="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace"/>
+</file>
 <file name="/var/www/html/e-SAS/backend/controllers/MedicalCertificateController.php">
  <error line="71" column="55" severity="error" message="Expected 1 newline after opening brace; 3 found" source="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace"/>
  <error line="93" column="19" severity="error" message="Expected 0 spaces before closing bracket; newline found" source="PSR2.Methods.FunctionCallSignature.SpaceBeforeCloseBracket"/>
@@ -89,7 +92,8 @@
  <error line="72" column="164" severity="warning" message="Line exceeds 120 characters; contains 164 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="81" column="177" severity="warning" message="Line exceeds 120 characters; contains 177 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="91" column="177" severity="warning" message="Line exceeds 120 characters; contains 177 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="117" column="127" severity="warning" message="Line exceeds 120 characters; contains 127 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="113" column="152" severity="warning" message="Line exceeds 120 characters; contains 152 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="128" column="127" severity="warning" message="Line exceeds 120 characters; contains 127 characters" source="Generic.Files.LineLength.TooLong"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Input/InputDefinitionTest.php">
  <error line="22" column="15" severity="error" message="There must not be more than one property declared per statement" source="PSR2.Classes.PropertyDeclaration.Multiple"/>
@@ -169,6 +173,9 @@
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Fixtures/TestCommand.php">
  <error line="7" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
 </file>
+<file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Fixtures/Foo6Command.php">
+ <error line="6" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+</file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Fixtures/FooCommand.php">
  <error line="7" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
 </file>
@@ -204,6 +211,7 @@
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Command/ListCommandTest.php">
  <error line="25" column="153" severity="warning" message="Line exceeds 120 characters; contains 153 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="33" column="173" severity="warning" message="Line exceeds 120 characters; contains 173 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="85" column="1" severity="warning" message="Line exceeds 120 characters; contains 122 characters" source="Generic.Files.LineLength.TooLong"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Command/CommandTest.php">
  <error line="39" column="122" severity="warning" message="Line exceeds 120 characters; contains 122 characters" source="Generic.Files.LineLength.TooLong"/>
@@ -215,22 +223,23 @@
  <error line="76" column="124" severity="warning" message="Line exceeds 120 characters; contains 124 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="142" column="156" severity="warning" message="Line exceeds 120 characters; contains 156 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="143" column="139" severity="warning" message="Line exceeds 120 characters; contains 139 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="160" column="132" severity="warning" message="Line exceeds 120 characters; contains 132 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="169" column="146" severity="warning" message="Line exceeds 120 characters; contains 146 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="179" column="124" severity="warning" message="Line exceeds 120 characters; contains 124 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="185" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="186" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="187" column="160" severity="warning" message="Line exceeds 120 characters; contains 160 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="188" column="160" severity="warning" message="Line exceeds 120 characters; contains 160 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="191" column="178" severity="warning" message="Line exceeds 120 characters; contains 178 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="207" column="157" severity="warning" message="Line exceeds 120 characters; contains 157 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="208" column="154" severity="warning" message="Line exceeds 120 characters; contains 154 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="211" column="170" severity="warning" message="Line exceeds 120 characters; contains 170 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="214" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="223" column="170" severity="warning" message="Line exceeds 120 characters; contains 170 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="232" column="156" severity="warning" message="Line exceeds 120 characters; contains 156 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="323" column="160" severity="warning" message="Line exceeds 120 characters; contains 160 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="335" column="163" severity="warning" message="Line exceeds 120 characters; contains 163 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="147" column="129" severity="warning" message="Line exceeds 120 characters; contains 129 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="164" column="132" severity="warning" message="Line exceeds 120 characters; contains 132 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="173" column="146" severity="warning" message="Line exceeds 120 characters; contains 146 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="183" column="124" severity="warning" message="Line exceeds 120 characters; contains 124 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="189" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="190" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="191" column="160" severity="warning" message="Line exceeds 120 characters; contains 160 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="192" column="160" severity="warning" message="Line exceeds 120 characters; contains 160 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="195" column="178" severity="warning" message="Line exceeds 120 characters; contains 178 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="211" column="157" severity="warning" message="Line exceeds 120 characters; contains 157 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="212" column="154" severity="warning" message="Line exceeds 120 characters; contains 154 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="215" column="170" severity="warning" message="Line exceeds 120 characters; contains 170 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="218" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="227" column="170" severity="warning" message="Line exceeds 120 characters; contains 170 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="236" column="156" severity="warning" message="Line exceeds 120 characters; contains 156 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="336" column="160" severity="warning" message="Line exceeds 120 characters; contains 160 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="348" column="163" severity="warning" message="Line exceeds 120 characters; contains 163 characters" source="Generic.Files.LineLength.TooLong"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Output/NullOutputTest.php">
  <error line="34" column="155" severity="warning" message="Line exceeds 120 characters; contains 155 characters" source="Generic.Files.LineLength.TooLong"/>
@@ -250,7 +259,8 @@
  <error line="143" column="1" severity="error" message="Each class must be in a file by itself" source="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Style/SymfonyStyleTest.php">
- <error line="51" column="201" severity="warning" message="Line exceeds 120 characters; contains 201 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="60" column="201" severity="warning" message="Line exceeds 120 characters; contains 201 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="79" column="1" severity="error" message="Each class must be in a file by itself" source="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Helper/LegacyTableHelperTest.php">
  <error line="99" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
@@ -263,7 +273,7 @@
  <error line="225" column="144" severity="warning" message="Line exceeds 120 characters; contains 144 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="229" column="1" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
  <error line="246" column="1" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
- <error line="274" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="273" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Helper/LegacyDialogHelperTest.php">
  <error line="35" column="126" severity="warning" message="Line exceeds 120 characters; contains 126 characters" source="Generic.Files.LineLength.TooLong"/>
@@ -301,21 +311,21 @@
  <error line="100" column="215" severity="warning" message="Line exceeds 120 characters; contains 215 characters" source="Generic.Files.LineLength.TooLong"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Helper/LegacyProgressHelperTest.php">
- <error line="29" column="134" severity="warning" message="Line exceeds 120 characters; contains 134 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="39" column="134" severity="warning" message="Line exceeds 120 characters; contains 134 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="50" column="196" severity="warning" message="Line exceeds 120 characters; contains 196 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="65" column="122" severity="warning" message="Line exceeds 120 characters; contains 122 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="77" column="276" severity="warning" message="Line exceeds 120 characters; contains 276 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="30" column="134" severity="warning" message="Line exceeds 120 characters; contains 134 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="40" column="134" severity="warning" message="Line exceeds 120 characters; contains 134 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="51" column="196" severity="warning" message="Line exceeds 120 characters; contains 196 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="66" column="122" severity="warning" message="Line exceeds 120 characters; contains 122 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="78" column="276" severity="warning" message="Line exceeds 120 characters; contains 276 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="169" column="140" severity="warning" message="Line exceeds 120 characters; contains 140 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="195" column="282" severity="warning" message="Line exceeds 120 characters; contains 282 characters" source="Generic.Files.LineLength.TooLong"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Helper/ProgressBarTest.php">
- <error line="249" column="142" severity="warning" message="Line exceeds 120 characters; contains 142 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="408" column="1" severity="error" message="Empty lines are not allowed in multi-line function calls" source="PSR2.Methods.FunctionCallSignature.EmptyLine"/>
- <error line="413" column="1" severity="error" message="Empty lines are not allowed in multi-line function calls" source="PSR2.Methods.FunctionCallSignature.EmptyLine"/>
- <error line="418" column="1" severity="error" message="Empty lines are not allowed in multi-line function calls" source="PSR2.Methods.FunctionCallSignature.EmptyLine"/>
- <error line="423" column="1" severity="error" message="Empty lines are not allowed in multi-line function calls" source="PSR2.Methods.FunctionCallSignature.EmptyLine"/>
- <error line="508" column="137" severity="warning" message="Line exceeds 120 characters; contains 137 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="299" column="142" severity="warning" message="Line exceeds 120 characters; contains 142 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="457" column="1" severity="error" message="Empty lines are not allowed in multi-line function calls" source="PSR2.Methods.FunctionCallSignature.EmptyLine"/>
+ <error line="462" column="1" severity="error" message="Empty lines are not allowed in multi-line function calls" source="PSR2.Methods.FunctionCallSignature.EmptyLine"/>
+ <error line="467" column="1" severity="error" message="Empty lines are not allowed in multi-line function calls" source="PSR2.Methods.FunctionCallSignature.EmptyLine"/>
+ <error line="472" column="1" severity="error" message="Empty lines are not allowed in multi-line function calls" source="PSR2.Methods.FunctionCallSignature.EmptyLine"/>
+ <error line="557" column="137" severity="warning" message="Line exceeds 120 characters; contains 137 characters" source="Generic.Files.LineLength.TooLong"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php">
  <error line="41" column="141" severity="warning" message="Line exceeds 120 characters; contains 141 characters" source="Generic.Files.LineLength.TooLong"/>
@@ -372,10 +382,10 @@
  <error line="410" column="1" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
  <error line="437" column="1" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
  <error line="455" column="1" severity="error" message="Line indented incorrectly; expected at least 16 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
- <error line="482" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
- <error line="512" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
- <error line="539" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
- <error line="554" column="143" severity="warning" message="Line exceeds 120 characters; contains 143 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="481" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="511" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="538" column="1" severity="error" message="Line indented incorrectly; expected at least 8 spaces, found 0" source="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+ <error line="553" column="143" severity="warning" message="Line exceeds 120 characters; contains 143 characters" source="Generic.Files.LineLength.TooLong"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Descriptor/JsonDescriptorTest.php">
  <error line="33" column="146" severity="warning" message="Line exceeds 120 characters; contains 146 characters" source="Generic.Files.LineLength.TooLong"/>
@@ -465,35 +475,35 @@
  <error line="538" column="198" severity="warning" message="Line exceeds 120 characters; contains 198 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="541" column="207" severity="warning" message="Line exceeds 120 characters; contains 207 characters" source="Generic.Files.LineLength.TooLong"/>
  <error line="551" column="199" severity="warning" message="Line exceeds 120 characters; contains 199 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="571" column="210" severity="warning" message="Line exceeds 120 characters; contains 210 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="574" column="219" severity="warning" message="Line exceeds 120 characters; contains 219 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="586" column="211" severity="warning" message="Line exceeds 120 characters; contains 211 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="601" column="154" severity="warning" message="Line exceeds 120 characters; contains 154 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="602" column="163" severity="warning" message="Line exceeds 120 characters; contains 163 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="612" column="168" severity="warning" message="Line exceeds 120 characters; contains 168 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="615" column="163" severity="warning" message="Line exceeds 120 characters; contains 163 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="618" column="159" severity="warning" message="Line exceeds 120 characters; contains 159 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="621" column="159" severity="warning" message="Line exceeds 120 characters; contains 159 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="624" column="155" severity="warning" message="Line exceeds 120 characters; contains 155 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="630" column="133" severity="warning" message="Line exceeds 120 characters; contains 133 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="633" column="173" severity="warning" message="Line exceeds 120 characters; contains 173 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="636" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="645" column="152" severity="warning" message="Line exceeds 120 characters; contains 152 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="648" column="154" severity="warning" message="Line exceeds 120 characters; contains 154 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="651" column="164" severity="warning" message="Line exceeds 120 characters; contains 164 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="654" column="150" severity="warning" message="Line exceeds 120 characters; contains 150 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="657" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="660" column="145" severity="warning" message="Line exceeds 120 characters; contains 145 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="663" column="150" severity="warning" message="Line exceeds 120 characters; contains 150 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="666" column="143" severity="warning" message="Line exceeds 120 characters; contains 143 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="675" column="133" severity="warning" message="Line exceeds 120 characters; contains 133 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="746" column="82" severity="error" message="Closing brace must be on a line by itself" source="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
- <error line="857" column="160" severity="warning" message="Line exceeds 120 characters; contains 160 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="994" column="174" severity="warning" message="Line exceeds 120 characters; contains 174 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="1002" column="174" severity="warning" message="Line exceeds 120 characters; contains 174 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="1024" column="1" severity="error" message="Each class must be in a file by itself" source="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
- <error line="1033" column="138" severity="warning" message="Line exceeds 120 characters; contains 138 characters" source="Generic.Files.LineLength.TooLong"/>
- <error line="1047" column="1" severity="error" message="Each class must be in a file by itself" source="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
+ <error line="570" column="210" severity="warning" message="Line exceeds 120 characters; contains 210 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="573" column="219" severity="warning" message="Line exceeds 120 characters; contains 219 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="585" column="211" severity="warning" message="Line exceeds 120 characters; contains 211 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="600" column="154" severity="warning" message="Line exceeds 120 characters; contains 154 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="601" column="163" severity="warning" message="Line exceeds 120 characters; contains 163 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="611" column="168" severity="warning" message="Line exceeds 120 characters; contains 168 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="614" column="163" severity="warning" message="Line exceeds 120 characters; contains 163 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="617" column="159" severity="warning" message="Line exceeds 120 characters; contains 159 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="620" column="159" severity="warning" message="Line exceeds 120 characters; contains 159 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="623" column="155" severity="warning" message="Line exceeds 120 characters; contains 155 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="629" column="133" severity="warning" message="Line exceeds 120 characters; contains 133 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="632" column="173" severity="warning" message="Line exceeds 120 characters; contains 173 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="635" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="644" column="152" severity="warning" message="Line exceeds 120 characters; contains 152 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="647" column="154" severity="warning" message="Line exceeds 120 characters; contains 154 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="650" column="164" severity="warning" message="Line exceeds 120 characters; contains 164 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="653" column="150" severity="warning" message="Line exceeds 120 characters; contains 150 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="656" column="166" severity="warning" message="Line exceeds 120 characters; contains 166 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="659" column="145" severity="warning" message="Line exceeds 120 characters; contains 145 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="662" column="150" severity="warning" message="Line exceeds 120 characters; contains 150 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="665" column="143" severity="warning" message="Line exceeds 120 characters; contains 143 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="674" column="133" severity="warning" message="Line exceeds 120 characters; contains 133 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="745" column="82" severity="error" message="Closing brace must be on a line by itself" source="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
+ <error line="856" column="160" severity="warning" message="Line exceeds 120 characters; contains 160 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="993" column="174" severity="warning" message="Line exceeds 120 characters; contains 174 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="1001" column="174" severity="warning" message="Line exceeds 120 characters; contains 174 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="1022" column="1" severity="error" message="Each class must be in a file by itself" source="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
+ <error line="1031" column="138" severity="warning" message="Line exceeds 120 characters; contains 138 characters" source="Generic.Files.LineLength.TooLong"/>
+ <error line="1045" column="1" severity="error" message="Each class must be in a file by itself" source="PSR1.Classes.ClassDeclaration.MultipleClasses"/>
 </file>
 <file name="/var/www/html/e-SAS/vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php">
  <error line="134" column="172" severity="warning" message="Line exceeds 120 characters; contains 172 characters" source="Generic.Files.LineLength.TooLong"/>
