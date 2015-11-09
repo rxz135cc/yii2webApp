@@ -13,15 +13,15 @@
         <D>0</D>
       </Stats>
       <ConcreteClasses>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/DepartmentController.php">DepartmentController</Class>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/FacultyController.php">FacultyController</Class>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/GroupController.php">GroupController</Class>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/MedicalCertificateController.php">MedicalCertificateController</Class>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/NotifyEmailController.php">NotifyEmailController</Class>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/ProgramController.php">ProgramController</Class>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/SiteController.php">SiteController</Class>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/StaffController.php">StaffController</Class>
-        <Class sourceFile="/var/www/html/e-SAS/backend/controllers/StudentController.php">StudentController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/DepartmentController.php">DepartmentController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/FacultyController.php">FacultyController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/GroupController.php">GroupController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/MedicalCertificateController.php">MedicalCertificateController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/NotifyEmailController.php">NotifyEmailController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/ProgramController.php">ProgramController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/SiteController.php">SiteController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/StaffController.php">StaffController</Class>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/StudentController.php">StudentController</Class>
       </ConcreteClasses>
       <AbstractClasses/>
       <DependsUpon>
