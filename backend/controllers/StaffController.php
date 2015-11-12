@@ -24,7 +24,8 @@ class StaffController extends Controller
                     'delete' => ['post'],
                 ],
             ],
-        
+        ];
+    }
 
     /**
      * Lists all Staff models.
