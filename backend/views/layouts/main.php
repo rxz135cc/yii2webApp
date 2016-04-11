@@ -58,16 +58,20 @@ AppAsset::register($this);
                 <a href="#" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-search"></span> Search</a>
             </div>
 
-            <?php echo yii\bootstrap\Nav::widget([
+            <?php if (Yii::$app->user->isGuest) { ?>
+                <!--write something here-->
+            <?php
+            } else {?>
+                <?php echo yii\bootstrap\Nav::widget([
 
-                'items' => [
-
-               ['label' => 'Digital Medical Certificate','url' => ['/medical-certificate/index']],
-
-               ],
-                'options' => ['class' =>'nav nav-tabs'],    
-            ]);
-            ?>
+                    'items' => [
+                        ['label' => 'Digital Medical Certificate','url' => ['/medical-certificate/index']],
+                    ],
+                    'options' => ['class' =>'nav nav-tabs'],    
+                ]);
+                ?>
+            <?php
+            } ?>
     <!--
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],

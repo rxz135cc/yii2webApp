@@ -10,7 +10,6 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'PhpConsole' => array($vendorDir . '/php-console/php-console/src'),
     'PHPMD\\' => array($vendorDir . '/phpmd/phpmd/src/main/php'),
-    'PDepend\\' => array($vendorDir . '/pdepend/pdepend/src/main/php'),
     'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
     'Guzzle\\Stream' => array($vendorDir . '/guzzle/stream'),
     'Guzzle\\Parser' => array($vendorDir . '/guzzle/parser'),

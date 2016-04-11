@@ -33,13 +33,13 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
     public function testWithoutTests()
     {
         $this->assertEquals(
-            array(
+            [
                 'files' => 1,
-                'loc' => 73,
-                'lloc' => 25,
+                'loc' => 75,
+                'lloc' => 26,
                 'llocClasses' => 22,
                 'llocFunctions' => 1,
-                'llocGlobal' => 2,
+                'llocGlobal' => 3,
                 'cloc' => 7,
                 'ccn' => 2,
                 'ccnMethods' => 2,
@@ -75,7 +75,7 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
                 'globalConstantAccesses' => 1,
                 'directories' => 0,
                 'namespaces' => 1,
-                'ncloc' => 66,
+                'ncloc' => 68,
                 'classCcnMin' => 1,
                 'classCcnAvg' => 1.65,
                 'classCcnMax' => 3,
@@ -88,9 +88,9 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
                 'methodLlocMin' => 4,
                 'methodLlocAvg' => 5.6,
                 'methodLlocMax' => 7
-            ),
+            ],
             $this->analyser->countFiles(
-                array(__DIR__ . '/_files/source.php'),
+                [__DIR__ . '/_files/source.php'],
                 false
             ),
             '',
@@ -101,13 +101,13 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
     public function testWithTests()
     {
         $this->assertEquals(
-            array(
+            [
                 'files' => 2,
-                'loc' => 96,
-                'lloc' => 25,
+                'loc' => 98,
+                'lloc' => 26,
                 'llocClasses' => 22,
                 'llocFunctions' => 1,
-                'llocGlobal' => 2,
+                'llocGlobal' => 3,
                 'cloc' => 11,
                 'ccn' => 2,
                 'ccnMethods' => 2,
@@ -143,7 +143,7 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
                 'globalConstantAccesses' => 1,
                 'directories' => 0,
                 'namespaces' => 1,
-                'ncloc' => 85,
+                'ncloc' => 87,
                 'classCcnMin' => 1,
                 'classCcnAvg' => 1.5,
                 'classCcnMax' => 3,
@@ -156,12 +156,12 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
                 'methodLlocMin' => 4,
                 'methodLlocAvg' => 5.6,
                 'methodLlocMax' => 7
-            ),
+            ],
             $this->analyser->countFiles(
-                array(
+                [
                     __DIR__ . '/_files/source.php',
                     __DIR__ . '/_files/tests.php'
-                ),
+                ],
                 true
             ),
             '',
@@ -171,9 +171,9 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
 
     public function testFilesThatExtendPHPUnitTestCaseAreCountedAsTests() {
         $result = $this->analyser->countFiles(
-            array(
+            [
                 __DIR__ . '/_files/tests.php'
-            ),
+            ],
             true
         );
 
@@ -182,24 +182,21 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
 
     public function testFilesThatIndirectlyExtendPHPUnitTestCaseAreCountedAsTests() {
         $result = $this->analyser->countFiles(
-            array(
+            [
                 __DIR__ . '/_files/twoTestsThatIndirectlyExtendPHPUnitTestCase.php'
-            ),
+            ],
             true
         );
 
         $this->assertEquals(3, $result['testClasses']);
     }
 
-    /**
-     * @requires PHP 5.4
-     */
     public function testTraitsAreCountedCorrectly()
     {
         $result = $this->analyser->countFiles(
-            array(
+            [
                 __DIR__ . '/_files/trait.php'
-            ),
+            ],
             false
         );
 
@@ -212,9 +209,9 @@ class PHPLOC_AnalyserTest extends PHPUnit_Framework_TestCase
     public function testIssue64IsFixed()
     {
         $result = $this->analyser->countFiles(
-            array(
+            [
                 __DIR__ . '/_files/issue_62.php'
-            ),
+            ],
             false
         );
 
