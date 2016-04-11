@@ -11,10 +11,9 @@ modules:
             url: http://localhost/yii2webApp/backend/web/
             auth: ['imaprog', 'Takjugak6799^&((']
         - REST:
-           depends: PhpBrowser
-           url: 'http://localhost/yii2webApp/backend/web/'
+            depends: PhpBrowser
+            url: 'http://localhost/yii2webApp/backend/web/'
 #        - Yii2:
 #            configFile: '/common/config/main-local.php'
 #            url: http://localhost/yii2webApp/backend/web/
 #            auth: ['imaprog', 'Takjugak6799^&((']
-        - \Helper\Acceptance
