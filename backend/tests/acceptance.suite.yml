@@ -14,6 +14,7 @@ modules:
             depends: PhpBrowser
             url: 'http://localhost/yii2webApp/backend/web/'
             part: Json
+        - \Helper\Acceptance
 #        - Yii2:
 #            configFile: '/common/config/main-local.php'
 #            url: http://localhost/yii2webApp/backend/web/
