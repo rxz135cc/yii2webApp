@@ -8,7 +8,7 @@ $value = $I->grabValueFrom(['name' => 'MedicalCertificate[student_id]']);
 $I->haveHttpHeader('Content-Type', 'application/x-www-form-urlencoded');
 $I->sendAjaxGetRequest('index.php?r=student/get-program-email&matrixId='.$value.'');
 $I->seeResponseIsJson();
-$I->seeResponseMatchesJsonType([
+$I->seeResponseContainsJson([
      'student_id' => 'integer',
      'student_matrix' => 'string:regex(/[\d]/)',
      'student_name' => 'string:regex(/[a-zA-Z]/)',
