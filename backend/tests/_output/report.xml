@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="acceptance" tests="3" assertions="7" failures="0" errors="0" time="0.209929">
+    <testcase name="HomePage" file="/var/www/html/yii2webApp/backend/tests/acceptance/HomePageCept.php" assertions="3" time="0.052107"/>
+    <testcase name="Signin" file="/var/www/html/yii2webApp/backend/tests/acceptance/SigninCept.php" assertions="2" time="0.053830"/>
+    <testcase name="formTest" file="/var/www/html/yii2webApp/backend/tests/acceptance/formTestCept.php" assertions="2" time="0.103992"/>
+  </testsuite>
+</testsuites>
