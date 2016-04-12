@@ -13,6 +13,7 @@ modules:
         - REST:
             depends: PhpBrowser
             url: 'http://localhost/yii2webApp/backend/web/'
+            part: Json
 #        - Yii2:
 #            configFile: '/common/config/main-local.php'
 #            url: http://localhost/yii2webApp/backend/web/

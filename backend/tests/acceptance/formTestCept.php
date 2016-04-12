@@ -6,6 +6,7 @@ $I->amOnPage('index.php?r=medical-certificate/create');
 $I->selectOption('MedicalCertificate[student_id]','2010260208');
 $value = $I->grabValueFrom(['name' => 'MedicalCertificate[student_id]']);
 $I->sendAjaxGetRequest('index.php?r=student/get-program-email&matrixId='.$value.'');
+$I->seeResponseIsJson();
 // $I->seeResponseMatchesJsonType([
 //      'student_id' => 'integer',
 //      'student_matrix' => 'string:regex(/[\d]/)',
