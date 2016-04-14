@@ -18,5 +18,5 @@ modules:
         Db:
             dsn: 'mysql:host=localhost;dbname=yii2advanced'
             user: 'root'
-            password: '12345abcd'
+            password: '12345'
             dump: tests/_data/dump.sql
