@@ -13,8 +13,8 @@ use yii\filters\VerbFilter;
  * DepartmentController implements the CRUD actions for Department model.
  */
 class DepartmentController extends Controller
-
-ic function behaviors()
+{
+    public function behaviors()
     {
         return [
             'verbs' => [
