@@ -3,16 +3,17 @@
   <Packages>
     <Package name="backend\controllers">
       <Stats>
-        <TotalClasses>9</TotalClasses>
-        <ConcreteClasses>9</ConcreteClasses>
+        <TotalClasses>10</TotalClasses>
+        <ConcreteClasses>10</ConcreteClasses>
         <AbstractClasses>0</AbstractClasses>
         <Ca>0</Ca>
-        <Ce>6</Ce>
+        <Ce>7</Ce>
         <A>0</A>
         <I>1</I>
         <D>0</D>
       </Stats>
       <ConcreteClasses>
+        <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/BioController.php">BioController</Class>
         <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/DepartmentController.php">DepartmentController</Class>
         <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/FacultyController.php">FacultyController</Class>
         <Class sourceFile="/var/www/html/yii2webApp/backend/controllers/GroupController.php">GroupController</Class>
@@ -26,6 +27,7 @@
       <AbstractClasses/>
       <DependsUpon>
         <Package></Package>
+        <Package>app\models</Package>
         <Package>backend\models</Package>
         <Package>common\models</Package>
         <Package>yii\filters</Package>

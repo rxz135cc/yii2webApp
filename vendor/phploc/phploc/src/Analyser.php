@@ -365,12 +365,7 @@ class Analyser
                         $this->namespaces[$namespace] = true;
                     }
                     break;
-                    
-                case T_USE;
-                    while($tokens[++$i][0] !== ";" && $i < $numTokens);
-                    $i--;
-                    continue;
-                    
+
                 case T_CLASS:
                 case T_INTERFACE:
                 case T_TRAIT:
@@ -403,6 +398,12 @@ class Analyser
                     break;
 
                 case T_FUNCTION:
+                    $prev = $this->getPreviousNonWhitespaceTokenPos($tokens, $i);
+
+                    if ($tokens[$prev][0] === T_USE) {
+                        continue;
+                    }
+
                     $currentBlock = T_FUNCTION;
 
                     $next = $this->getNextNonWhitespaceTokenPos($tokens, $i);

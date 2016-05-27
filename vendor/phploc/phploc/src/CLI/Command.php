@@ -12,6 +12,7 @@ namespace SebastianBergmann\PHPLOC\CLI;
 
 use SebastianBergmann\FinderFacade\FinderFacade;
 use SebastianBergmann\Git\Git;
+use SebastianBergmann\Git\RuntimeException;
 use SebastianBergmann\PHPLOC\Analyser;
 use SebastianBergmann\PHPLOC\Log\CSV\History;
 use SebastianBergmann\PHPLOC\Log\CSV\Single;
@@ -160,7 +161,26 @@ class Command extends AbstractCommand
      */
     private function executeHistory(InputInterface $input, OutputInterface $output)
     {
-        $git            = new Git($input->getOption('git-repository'));
+        if (!is_dir($input->getOption('git-repository'))) {
+            throw new RuntimeException(
+                sprintf(
+                    'Working directory "%s" does not exist',
+                    $input->getOption('git-repository')
+                )
+            );
+        }
+
+        $git = new Git($input->getOption('git-repository'));
+
+        if (!$git->isWorkingCopyClean()) {
+            throw new RuntimeException(
+                sprintf(
+                    'Working directory "%s" is not clean',
+                    $input->getOption('git-repository')
+                )
+            );
+        }
+
         $currentBranch  = $git->getCurrentBranch();
         $revisions      = $git->getRevisions();
         $printer        = null;
