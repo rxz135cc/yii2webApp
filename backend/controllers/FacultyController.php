@@ -13,7 +13,7 @@ use yii\filters\VerbFilter;
  * FacultyController implements the CRUD actions for Faculty model.
  */
 class FacultyController extends Controller
-{
+
     public function behaviors()
     {
         return [
